@@ -1,0 +1,37 @@
+
+:root{
+    --primary-color: rgb(102, 105, 126);
+    --secondary-color:rgb(25, 20, 57);
+    
+}
+
+/* ==================== 
+ hero-section start here
+  =================== */
+
+.hero-section{
+    height: 100%;
+    width: 100%;
+    background:linear-gradient(90deg, rgba(25, 20, 57, 0.9), rgba(25, 20, 57, 0.9)), url(../images/Banner.jpg) no-repeat ;
+    background-size: cover;
+}
+.nav-underline{
+    height: 1px;
+    width: 85%;
+    background: var(--primary-color);
+}
+
+/* ==================== 
+ projects-section start here
+  =================== */
+
+
+  /* ==================== 
+  footer-section start here
+  =================== */
+  .large-footer{
+    background: #3a3e64;
+  }
+  footer{
+    background: #313454;
+  }
